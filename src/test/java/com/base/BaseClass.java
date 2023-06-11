@@ -14,6 +14,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -30,7 +31,9 @@ public class BaseClass {
 		switch (browserType) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
-			driver= new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--disable-notofications");
+			driver= new ChromeDriver(options);
 			break;
 		case "firefox":
 			WebDriverManager.firefoxdriver().setup();

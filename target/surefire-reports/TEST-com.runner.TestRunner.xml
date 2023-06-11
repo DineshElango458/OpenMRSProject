@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="51" failures="0" name="com.runner.TestRunner" time="280.804" errors="0" skipped="0">
+<testsuite tests="20" failures="0" name="com.runner.TestRunner" time="93.713" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
@@ -65,55 +65,24 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Verifying login page with valid credentials" name="User is on the Login page" time="8.081"/>
-  <testcase classname="Verifying login page with valid credentials" name="User should enter valid Username and Password" time="1.95"/>
-  <testcase classname="Verifying login page with valid credentials" name="User should pick any location" time="0.431"/>
-  <testcase classname="Verifying login page with valid credentials" name="User should click Login button and verify success msg" time="7.267"/>
-  <testcase classname="Verifying login page with valid credentials" name="User is on the Dashboard page and click Register the  patient menu" time="8.89"/>
-  <testcase classname="Verifying login page with valid credentials" name="Verifying login page with valid credentials" time="11.368"/>
-  <testcase classname="Providing details in patent menu" name="User is on the Login page" time="10.832"/>
-  <testcase classname="Providing details in patent menu" name="User should enter valid Username and Password" time="2.374"/>
-  <testcase classname="Providing details in patent menu" name="User should pick any location" time="0.399"/>
-  <testcase classname="Providing details in patent menu" name="User should click Login button and verify success msg" time="4.623"/>
-  <testcase classname="Providing details in patent menu" name="User is on the Dashboard page and click Register the  patient menu" time="10.5"/>
-  <testcase classname="Providing details in patent menu" name="User should enter valid details of Demographics ,gender,birthdate,addressfield and phone number &quot;Anbu&quot;,&quot;y&quot;,&quot;Male&quot;,&quot;27&quot;,&quot;April&quot;,&quot;2001&quot;,&quot;202 street&quot;,&quot;204 street&quot;,&quot;Chennai&quot;,&quot;Tamilnadu&quot;,&quot;India&quot;,&quot;674966d&quot; and &quot;8765432170&quot;" time="4.454"/>
-  <testcase classname="Providing details in patent menu" name="User should click relationships details" time="0.152"/>
-  <testcase classname="Providing details in patent menu" name="User should verify confirm page all details" time="0.092"/>
-  <testcase classname="Providing details in patent menu" name="User should click confirm and verify patient details page redirected" time="12.632"/>
-  <testcase classname="Providing details in patent menu" name="Providing details in patent menu" time="14.521"/>
-  <testcase classname="Verify the attachment and toaster message" name="User is on the Login page" time="8.166"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should enter valid Username and Password" time="0.388"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should pick any location" time="0.149"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should click Login button and verify success msg" time="2.584"/>
-  <testcase classname="Verify the attachment and toaster message" name="User is on the Dashboard page and click Register the  patient menu" time="7.195"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should enter valid details of Demographics ,gender,birthdate,addressfield and phone number &quot;Clark&quot;,&quot;y&quot;,&quot;Male&quot;,&quot;27&quot;,&quot;April&quot;,&quot;1998&quot;,&quot;205 street&quot;,&quot;206 street&quot;,&quot;Aus&quot;,&quot;Sysdney&quot;,&quot;India&quot;,&quot;674966d&quot; and &quot;8765432170&quot;" time="3.437"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should click relationships details" time="0.161"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should verify confirm page all details" time="0.07"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should click confirm and verify patient details page redirected" time="0.234"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should click Start Visit and Confirm Visit" time="12.84"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should click Attachments menu" time="11.527"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should  add attachment file" time="12.431"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should enter msg in captions field &quot;File Uploaded&quot; and Upload it" time="0.887"/>
-  <testcase classname="Verify the attachment and toaster message" name="User should verify toaster message &quot;The attachment was successfully uploaded.&quot;and redirect to Patient page" time="5.435"/>
-  <testcase classname="Verify the attachment and toaster message" name="Verify the attachment and toaster message" time="10.297"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User is on the Login page" time="18.765"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should enter valid Username and Password" time="0.443"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should pick any location" time="0.17"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click Login button and verify success msg" time="3.466"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User is on the Dashboard page and click Register the  patient menu" time="21.952"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should enter valid details of Demographics ,gender,birthdate,addressfield and phone number &quot;Warne&quot;,&quot;y&quot;,&quot;Male&quot;,&quot;27&quot;,&quot;April&quot;,&quot;1998&quot;,&quot;205 street&quot;,&quot;206 street&quot;,&quot;Aus&quot;,&quot;Sysdney&quot;,&quot;India&quot;,&quot;674966d&quot; and &quot;8765432170&quot;" time="10.066"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click relationships details" time="0.279"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should verify confirm page all details" time="0.827"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click confirm and verify patient details page redirected" time="14.662"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click Start Visit and Confirm Visit" time="2.193"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click Attachments menu" time="11.443"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should  add attachment file" time="0.492"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should enter msg in captions field &quot;File Uploaded&quot; and Upload it" time="0.542"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should verify toaster message &quot;The attachment was successfully uploaded.&quot;and redirect to Patient page" time="4.375"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should verify Recent click entry and attachment section has an attachment" time="0.259"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click End Visit and click Yes" time="0.343"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click Delete Patient &quot;Testing&quot; and confirm button" time="6.288"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should enter Delete Patient id and click search" time="3.607"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should verify Delete Patient should not be displayed" time="2.262"/>
-  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="Verify attachment and Recent Visit and Delete Patient" time="4.003"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User is on the Login page" time="6.428"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should enter valid Username and Password" time="3.73"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should pick any location" time="0.416"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click Login button and verify success msg" time="4.328"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User is on the Dashboard page and click Register the  patient menu" time="8.462"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should enter valid details of Demographics ,gender,birthdate,addressfield and phone number &quot;Rahul&quot;,&quot;y&quot;,&quot;Male&quot;,&quot;27&quot;,&quot;April&quot;,&quot;1998&quot;,&quot;205 street&quot;,&quot;206 street&quot;,&quot;Aus&quot;,&quot;Sysdney&quot;,&quot;India&quot;,&quot;674966d&quot; and &quot;8765432170&quot;" time="5.423"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click relationships details" time="0.173"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should verify confirm page all details" time="0.171"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click confirm and verify patient details page redirected" time="12.087"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click Start Visit and Confirm Visit" time="2.109"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click Attachments menu" time="15.449"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should  add attachment file" time="18.889"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should enter msg in captions field &quot;File Uploaded&quot; and Upload it" time="0.279"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should verify toaster message &quot;The attachment was successfully uploaded.&quot;and redirect to Patient page" time="3.769"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should verify Recent click entry and attachment section has an attachment" time="0.527"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click End Visit and click Yes" time="0.423"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should click Delete Patient &quot;Testing&quot; and confirm button" time="5.297"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should enter Delete Patient id and click search" time="3.202"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="User should verify Delete Patient should not be displayed" time="0.064"/>
+  <testcase classname="Verify attachment and Recent Visit and Delete Patient" name="Verify attachment and Recent Visit and Delete Patient" time="2.487"/>
 </testsuite>

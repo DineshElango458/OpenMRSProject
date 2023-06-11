@@ -33,10 +33,10 @@ public class TC2_PatientDetailsSteps extends BaseClass {
 	}
 	@When("User should verify confirm page all details")
 	public void userShouldVerifyConfirmPageAllDetails() {
-		WebElement gender = findlocatorbyxpath("//p[text()='Male']");
-		String text = gender.getText();
-		System.out.println(text);
-			//	Assert.assertEquals(expected, actual);
+		WebElement all = findlocatorbyxpath("//div[@id='dataCanvas']");
+		String text2 = all.getText();
+		System.out.println(text2);
+		
 	}
 	@Then("User should click confirm and verify patient details page redirected")
 	public void userShouldClickConfirmAndVerifyPatientDetailsPageRedirected() throws InterruptedException {

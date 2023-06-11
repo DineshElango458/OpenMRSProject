@@ -15,7 +15,8 @@ public class ConfirmPage extends BaseClass {
 	}
 
 
-	@FindBy(xpath="(//i[@class='icon-check-in'])[2]")
+
+	@FindBy(linkText="Start Visit")      //	(//i[@class='icon-check-in'])[2]
 	private WebElement startVisit;
 
 	@FindBy(xpath="(//button[text()='Confirm'])[4]")

@@ -14,7 +14,7 @@ public class UploadPage extends BaseClass {
 
 		PageFactory.initElements(driver, this);
 	}
-
+               
 
 	@FindBy(xpath="/html[1]/body[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[3]/div[1]/div[2]/a[5]")
 	private WebElement attachment;

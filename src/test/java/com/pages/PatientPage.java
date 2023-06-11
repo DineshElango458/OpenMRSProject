@@ -52,7 +52,7 @@ public class PatientPage extends BaseClass {
 	private WebElement  phbtn;
 	@FindBy(id="next-button")
 	private WebElement  relativebtn;
-	@FindBy(xpath="//span[text()='Name: ']")
+	@FindBy(xpath="//div[@id='dataCanvas']")
 	private WebElement confirmName;
 	@FindBy(xpath="//span[text()='Gender: ']")
 	private WebElement confirmgender;

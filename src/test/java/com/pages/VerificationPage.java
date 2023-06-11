@@ -17,12 +17,12 @@ public class VerificationPage extends BaseClass{
 
 
 
-
+//	/html[1]/body[1]/div[1]/div[3]/div[9]/div[3]/div[1]/ul[1]/li[1]/a[1]/div[1]/div[2]
 	@FindBy(xpath="//h3[text()='ATTACHMENTS']")
 	private WebElement attachments;
 
 
-	@FindBy(xpath="/html[1]/body[1]/div[1]/div[3]/div[9]/div[3]/div[1]/ul[1]/li[1]/a[1]/div[1]/div[2]")
+	@FindBy(linkText="End Visit")
 	private WebElement endvisit;
 
 	@FindBy(xpath="(//button[text()='Yes'])[2]")

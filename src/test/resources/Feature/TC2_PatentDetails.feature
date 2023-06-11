@@ -17,3 +17,5 @@ Feature: Verifying Dashboard page and Register a Patient menu
     Examples: 
       | Name | Family Name | Gender | Day | Month | Year | Address    | Address 2  | City/Village | State/Province | Country | Postal Code | Phone number |
       | Lara | k           | Male   |  27 | April | 2001 | 202 street | 204 street | Chennai      | Tamilnadu      | India   | 674966d     |   8765432170 |
+
+      

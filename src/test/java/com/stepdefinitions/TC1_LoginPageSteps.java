@@ -13,6 +13,8 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.base.BaseClass;
 import com.hooks.Hooks;
@@ -43,6 +45,8 @@ public class TC1_LoginPageSteps extends BaseClass {
 	@Then("User should click Login button and verify success msg")
 	public void user_should_click_login_button_and_verify_success_msg() {
 		pm.getLoginPage().loginbtn();
+	//	WebDriverWait wait = new WebDriverWait(driver,10);
+	//	wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath()))
 	}
 
 	@Then("User is on the Dashboard page and click Register the  patient menu")

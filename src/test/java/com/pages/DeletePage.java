@@ -11,7 +11,7 @@ public class DeletePage extends BaseClass {
 
 		PageFactory.initElements(driver, this);
 	}
-
+	
 	@FindBy(xpath="/html[1]/body[1]/div[1]/div[3]/div[6]/div[2]/div[1]/span[1]")
 	private WebElement idvalue;
 
